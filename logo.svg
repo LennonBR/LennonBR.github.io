@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Classroom Studio: an open book with a pencil, in the calculator icon's friendly style and colours -->
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8df5"/>
+      <stop offset="1" stop-color="#2f62d3"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f0ff"/>
+    </linearGradient>
+  </defs>
+  <!-- shadow -->
+  <ellipse cx="128" cy="243" rx="96" ry="9" fill="#000" opacity=".18"/>
+  <!-- tile -->
+  <rect x="14" y="14" width="228" height="224" rx="44" fill="url(#tile)" stroke="#1b2f6b" stroke-width="10"/>
+  <rect x="34" y="24" width="188" height="12" rx="6" fill="#fff" opacity=".25"/>
+  <!-- open book: two pages meeting at the spine -->
+  <path d="M128 76 C104 62 72 60 44 66 L44 186 C72 180 104 182 128 196 Z" fill="url(#page)" stroke="#1b2f6b" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M128 76 C152 62 184 60 212 66 L212 186 C184 180 152 182 128 196 Z" fill="url(#page)" stroke="#1b2f6b" stroke-width="9" stroke-linejoin="round"/>
+  <!-- lines of writing on the left page -->
+  <g stroke="#8fb3f5" stroke-width="7" stroke-linecap="round">
+    <line x1="62" y1="96" x2="110" y2="102"/>
+    <line x1="62" y1="120" x2="110" y2="126"/>
+    <line x1="62" y1="144" x2="98" y2="148"/>
+  </g>
+  <!-- a little diagram on the right page: a triangle -->
+  <path d="M150 156 L194 156 L172 100 Z" fill="#ffd36b" stroke="#1b2f6b" stroke-width="7" stroke-linejoin="round"/>
+  <!-- pencil across the right page -->
+  <g transform="rotate(-40 178 150)">
+    <rect x="128" y="138" width="92" height="24" rx="4" fill="#ffb84d" stroke="#1b2f6b" stroke-width="7"/>
+    <rect x="206" y="138" width="20" height="24" rx="4" fill="#ff9aa8" stroke="#1b2f6b" stroke-width="7"/>
+    <path d="M128 138 L104 150 L128 162 Z" fill="#f6dcb0" stroke="#1b2f6b" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M112 146 L104 150 L112 154 Z" fill="#1b2f6b"/>
+  </g>
+</svg>
